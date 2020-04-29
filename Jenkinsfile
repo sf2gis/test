@@ -12,7 +12,8 @@ pipeline {
         CI = 'true'
       }
       steps {
-        sh 'pwd'
+        sh '''pwd
+./test.sh'''
       }
     }
 
